@@ -1,7 +1,7 @@
 Course: CS 30
 Period: 1
 Date created: 2020/03/01
-Date last modified: 
+Date last modified: 2020/03/02
 Name: William Powers
 Description: Pseudocode
 
@@ -11,8 +11,10 @@ BEGIN Finish_Line Game:
 
 **MENU CODE**
 
+-Opening menu that gives you options to start game, end game, or get instructions
+
 BEGIN Menu:
-    Print Begin Menu
+    PRINT Begin Menu
     Input "What would you like to do?"
     CASEWHERE:
         1: "Start",  BEGIN Movement
@@ -21,7 +23,17 @@ BEGIN Menu:
     END CASEWHERE
 END Menu
 
+**Story line**
+
+-Prints an explanation of the game.
+
+BEGIN StoryLine:
+    PRINT Explanation
+
 **MOVEMENT CODE**
+
+-Code that gives you options to move, use items, get help, or show inventory.
+-Used for every move the player makes
 
 BEGIN Movement:
     INPUT "What would you like to do?"
@@ -41,12 +53,16 @@ END Movement
 
 **HelpMe Code**
 
+-Basic instructions for the game as well as the story line.
+
 BEGIN HelpMe
     PRINT Game Commands
     INPUT "Continue?"
 END HelpMe
 
 **Use Code**
+
+-Code for using items in your inventory
 
 BEGIN Use:
     PRINT Inv
@@ -60,11 +76,15 @@ END Use
 
 **Inv Code**
 
+-Prints the items in your inventory which you have picked up during the game.
+
 BEGIN Inv:
     PRINT Inv
 END Inv
 
 **Show XP Code**
+
+-Prints your XP that you have earned throughout the game.
 
 BEGIN Show XP:
     PRINT XP
