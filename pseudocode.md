@@ -11,7 +11,8 @@ BEGIN Finish_Line Game:
 
 **MENU CODE**
 
--Opening menu that gives you options to start game, end game, or get instructions
+-Opening menu that gives you options to start game, end game, or get
+instructions
 
 BEGIN Menu:
     PRINT Begin Menu
