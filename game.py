@@ -27,7 +27,7 @@ Powerup = {"John Cranos": {"Speed Boost":
 
 # Locations
 Location = {"John Cranos": {"Country Side": 
-                                {"Description": "Gravel Road Racing"}},
+                                {"Description": "Gravel Road"}},
             "Juliette Stevenson": {"New York": 
                                     {"Description": "City Streets of New York"}},
             "Stevie Jacobson": {"Manhattan": 
@@ -92,3 +92,39 @@ print("\n")
 print("Stevie Jacobson Power-Up:")
 PU = Powerup["Stevie Jacobson"]["Protection"]["Description"]
 print(f"- Protection: {PU}")
+
+print("\n")
+
+# Location Prints
+print("John Cranos Location:")
+Loc = Location["John Cranos"]["Country Side"]["Description"]
+print(f"- Location: {Loc}")
+print("\n")
+print("Juliette Stevenson Location:")
+Loc = Location["Juliette Stevenson"]["New York"]["Description"]
+print(f"- Location: {Loc}")
+print("\n")
+print("Stevie Jacobson Location:")
+Loc = Location["Stevie Jacobson"]["Manhattan"]["Description"]
+print(f"- Location: {Loc}")
+
+print("\n")
+
+# Inventory Prints
+print("Inventory items:")
+item = Inventory["Speed Boost"]
+print(f"- Speed Boost: {item}")
+item = Inventory["5 XP Power Up"]
+print(f"- 5 XP Power Up: {item}")
+item = Inventory["10 XP Power Up"]
+print(f"- 10 XP Power Up: {item}")
+item = Inventory["20 XP Power Up"]
+print(f"- 20 XP Power Up: {item}")
+item = Inventory["Flat Tire"]
+print(f"- Flat Tire: {item}")
+item = Inventory["Dead End"]
+print(f"- Dead End: {item}")
+item = Inventory["Gas Refill"]
+print(f"- Gas Refill: {item}")
+item = Inventory["Traffic Jam"]
+print(f"- Traffic Jam: {item}")
