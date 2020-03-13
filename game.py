@@ -1,38 +1,38 @@
 # Course: CS 30
 # Period: 1
 # Date created: 2020/03/11
-# Date last modified: 
+# Date last modified: 2020/03/13
 # Name: William Powers
 # Description: Finish Line main game file
 
 # Characters and their traits
 Character = {"John Cranos": {"XP": "100",
-                              "Speed": "55%",
-                              "Power-Up": "Speed Boost"},
-              "Juliette Stevenson": {"XP": "50",
-                                     "Speed": "75%",
-                                     "Power-Up": "Double XP"},
-              "Stevie Jacobson": {"XP": "20",
-                                  "Speed": "95%",
-                                  "Power-Up": "Protection"}
-              }
+                             "Speed": "55%",
+                             "Power-Up": "Speed Boost"},
+             "Juliette Stevenson": {"XP": "50",
+                                    "Speed": "75%",
+                                    "Power-Up": "Double XP"},
+             "Stevie Jacobson": {"XP": "20",
+                                 "Speed": "95%",
+                                 "Power-Up": "Protection"}
+             }
 # Character power ups
-Powerup = {"John Cranos": {"Speed Boost": 
-                                {"Description": "Inventory item that skips one turn"}},
-            "Juliette Stevenson": {"Double XP": 
-                                    {"Description": "Receive double XP on everything"}},
-            "Stevie Jacobson": {"Protection": 
-                                    {"Description": "Protected from one negative obstacle"}}
-            }
+Powerup = {"John Cranos": {"Speed Boost":
+                           {"Description": "Inventory item that skips one turn"}},
+           "Juliette Stevenson": {"Double XP":
+                                  {"Description": "Receive double XP on everything"}},
+           "Stevie Jacobson": {"Protection":
+                               {"Description": "Protected from one negative obstacle"}}
+           }
 
 # Locations
-Location = {"John Cranos": {"Country Side": 
-                                {"Description": "Gravel Road"}},
-            "Juliette Stevenson": {"New York": 
-                                    {"Description": "City Streets of New York"}},
-            "Stevie Jacobson": {"Manhattan": 
-                                    {"Description": "City Streets of Manhattan"}}
-             }
+Location = {"John Cranos": {"Country Side":
+                            {"Description": "Gravel Road"}},
+            "Juliette Stevenson": {"New York":
+                                   {"Description": "City Streets of New York"}},
+            "Stevie Jacobson": {"Manhattan":
+                                {"Description": "City Streets of Manhattan"}}
+            }
 
 # Inventory
 Inventory = {"Speed Boost": "Skip one turn",
@@ -128,3 +128,4 @@ item = Inventory["Gas Refill"]
 print(f"- Gas Refill: {item}")
 item = Inventory["Traffic Jam"]
 print(f"- Traffic Jam: {item}")
+
