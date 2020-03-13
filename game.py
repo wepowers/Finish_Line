@@ -45,3 +45,50 @@ Inventory = {"Speed Boost": "Skip one turn",
              "Traffic Jam": "Add two turns"
              }
 
+# Character Prints
+print("John Cranos:")
+XP = Character["John Cranos"]["XP"]
+print(f"- XP: {XP}")
+Speed = Character["John Cranos"]["Speed"]
+print(f"- Speed: {Speed}")
+Power_Up = Character["John Cranos"]["Power-Up"]
+print(f"- Power Up: {Power_Up}")
+
+print("\n")
+
+print("Juliette Stevenson:")
+XP = Character["Juliette Stevenson"]["XP"]
+print(f"- XP: {XP}")
+Speed = Character["Juliette Stevenson"]["Speed"]
+print(f"- Speed: {Speed}")
+Power_Up = Character["Juliette Stevenson"]["Power-Up"]
+print(f"- Power Up: {Power_Up}")
+
+print("\n")
+
+print("Stevie Jacobson:")
+XP = Character["Stevie Jacobson"]["XP"]
+print(f"- XP: {XP}")
+Speed = Character["Stevie Jacobson"]["Speed"]
+print(f"- Speed: {Speed}")
+Power_Up = Character["Stevie Jacobson"]["Power-Up"]
+print(f"- Power Up: {Power_Up}")
+
+print("\n")
+
+# Power Up Prints
+print("John Cranos Power-Up:")
+PU = Powerup["John Cranos"]["Speed Boost"]["Description"]
+print(f"- Speed Boost: {PU}")
+
+print("\n")
+
+print("Juliette Stevenson Power-Up:")
+PU = Powerup["Juliette Stevenson"]["Double XP"]["Description"]
+print(f"- Double XP: {PU}")
+
+print("\n")
+
+print("Stevie Jacobson Power-Up:")
+PU = Powerup["Stevie Jacobson"]["Protection"]["Description"]
+print(f"- Protection: {PU}")
