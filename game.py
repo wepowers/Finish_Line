@@ -18,18 +18,22 @@ Character = {"John Cranos": {"XP": "100",
              }
 # Character power ups
 Powerup = {"John Cranos": {"Speed Boost":
-                           {"Description": "Inventory item that skips one turn"}},
+                           {"Description": "Inventory item that skips one\
+                            turn"}},
            "Juliette Stevenson": {"Double XP":
-                                  {"Description": "Receive double XP on everything"}},
+                                  {"Description": "Receive double XP\
+                                   on everything"}},
            "Stevie Jacobson": {"Protection":
-                               {"Description": "Protected from one negative obstacle"}}
+                               {"Description": "Protected from one negative\
+                                obstacle"}}
            }
 
 # Locations
 Location = {"John Cranos": {"Country Side":
                             {"Description": "Gravel Road"}},
             "Juliette Stevenson": {"New York":
-                                   {"Description": "City Streets of New York"}},
+                                   {"Description": "City Streets of\
+                                    New York"}},
             "Stevie Jacobson": {"Manhattan":
                                 {"Description": "City Streets of Manhattan"}}
             }
@@ -128,4 +132,3 @@ item = Inventory["Gas Refill"]
 print(f"- Gas Refill: {item}")
 item = Inventory["Traffic Jam"]
 print(f"- Traffic Jam: {item}")
-
