@@ -6,6 +6,7 @@
 # Description: Finish Line main game file
 
 # Characters and their traits
+
 Character = {"John Cranos": {"XP": "100",
                              "Speed": "55%",
                              "Power-Up": "Speed Boost"},
